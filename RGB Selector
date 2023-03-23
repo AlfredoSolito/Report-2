@@ -1,1 +1,23 @@
-vghvgh
+/* This code is to select specific colors using the analogWrite.*/
+
+// Define the lEDs of the RGB on the arduino
+int R = A0;  
+int G = A1; 
+int B = A2;  
+
+void setup() {
+  
+  // Define the pins as outputs
+  pinMode(R, OUTPUT);.
+  pinMode(G, OUTPUT); 
+  pinMode(B, OUTPUT); /
+}
+
+void loop() {
+  // control the brightness of each led ranging from 0 to 255
+  analogWrite(R, 230);  
+  analogWrite(G, 20); 
+  analogWrite(B, 75);
+  
+  // This combination should give pink
+}
